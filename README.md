@@ -1,2 +1,2 @@
-# Final-Year-Project
-Final year project
+# E commerce store
+E commerce store
