@@ -5,7 +5,7 @@ const Home = () => {
   return (
   <>
 
-  <section className='home-wrapper-1 py-5'>
+  <section className='home-wrapper-1 '>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,8 +91,9 @@ const Home = () => {
         </div>
         </div>
     </div>
+    <div class="container-sm text-center pt-5 h1">New Arrivals</div>
   </section>
-  <section lassName='home-wrapper-2 py-5'>
+  <section lassName='home-wrapper-2 '>
   <div class="container">
   <div class="row row-cols-4 w-5 p-3 sm ">
     <div class="col-smallstuff">
@@ -120,7 +121,7 @@ const Home = () => {
 
 <div class="col-smallstuff">
           <div className='small-banner1 position-relative'>
-          <img src="images/penguinswitch.png" className='img'
+          <img src="images/starwars.png" className='img'
           alt='small img'
           />
                     <div className='small-title'>KEYBOARDS</div>
@@ -129,17 +130,7 @@ const Home = () => {
           </div>
           <div class="col-smallstuff">
           <div className='small-banner1 position-relative'>
-          <img src="images/penguinswitch.png" className='img'
-          alt='small img'
-          />
-                    <div className='small-title'>KEYBOARDS</div>
-
-          </div>
-          
-          </div>
-          <div class="col-smallstuff">
-          <div className='small-banner1 position-relative'>
-          <img src="images/penguinswitch.png" className='img'
+          <img src="images/4switches.png" className='img'
           alt='small img'
           />
                     <div className='small-title'>KEYBOARDS</div>
@@ -149,7 +140,17 @@ const Home = () => {
           </div>
           <div class="col-smallstuff">
           <div className='small-banner1 position-relative'>
-          <img src="images/penguinswitch.png" className='img'
+          <img src="images/mousepad2.png" className='img'
+          alt='small img'
+          />
+                    <div className='small-title'>KEYBOARDS</div>
+
+          </div>
+          
+          </div>
+          <div class="col-smallstuff">
+          <div className='small-banner1 position-relative'>
+          <img src="images/pcb1.png" className='img'
           alt='small img'
           />
           <div className='small-title'>KEYBOARDS</div>
@@ -180,7 +181,30 @@ const Home = () => {
   </div>
 </div>
 
+<div class="container p-3 pt-5">
+<div class="row">
+
+<div class="col-xl-6 col-lg-10"><div>
+  <p class="subtitle mb-3 text-danger">Deal of the week</p>
+  <h3 class="h1">Oversized denim jacket</h3><p class="text-muted">
+    <del class="me-3">$129.00</del><span>$79.00</span></p><p class="mb-4">
+      <span class="badge badge-danger p-3 badge bg-danger">$50 off</span>
+      </p>
+      <div class="bg-white px-5 py-4 shadow mb-4" id="countdown">
+        <div class="row justify-content-between">
+          <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+            <h6 class="h4 mb-2 days">14&nbsp;</h6><span class="text-muted">days</span></div>
+            <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0"><h6 class="h4 mb-2 days">23&nbsp;</h6><span class="text-muted">hours</span></div>
+            <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0"><h6 class="h4 mb-2 days">58&nbsp;</h6><span class="text-muted">minutes</span></div>
+            <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0"><h6 class="h4 mb-2 days">28&nbsp;</h6><span class="text-muted">seconds</span></div>
+            </div></div><p><button type="button" class="btn btn-outline-dark">Shop now</button></p>
+            </div>
+            </div>
+            </div>
+            </div>
+
   </section>
+  
   </>
   );
 };

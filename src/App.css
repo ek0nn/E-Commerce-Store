@@ -304,4 +304,8 @@ gap: 10px;
   width: 100%!important;
   margin-bottom: 30px;
 }
+.p-33{
+  padding: 1rem!important;
+  background-color:darkgrey;
+}
 /* Home END */
